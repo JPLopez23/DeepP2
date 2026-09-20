@@ -1,0 +1,16 @@
+{
+  "MAX_SEQ_LEN": 27,
+  "INPUT_DIM": 12,
+  "HIDDEN_DIM": 64,
+  "FEATURE_COLS": [
+    "log_amount_z",
+    "hour_sin_z",
+    "hour_cos_z",
+    "log_delta_t_z",
+    "frac_balance_z"
+  ],
+  "N_TYPES": 5,
+  "best_threshold_stage_a": 0.23908327519893646,
+  "recon_error_mean_train": 0.13665478394412156,
+  "recon_error_std_train": 0.42847079568327984
+}
